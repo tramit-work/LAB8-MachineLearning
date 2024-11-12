@@ -1,0 +1,131 @@
+/* Global styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1e1e1e; /* Dark background */
+    color: #f4f4f4; /* Light text color */
+    line-height: 1.6;
+}
+
+header {
+    background-color: #212121; /* Dark grey */
+    padding: 30px 0;
+    text-align: center;
+    color: #ff8c00; /* Bright orange color for contrast */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    background-color: #333333;
+    padding: 15px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+nav ul li a {
+    color: #ff8c00; /* Matching color with header */
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #fff;
+    transform: scale(1.1); /* Slightly scale up on hover */
+}
+
+main {
+    padding: 40px 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 1em;
+    color: #888;
+}
+
+footer a {
+    color: #ff8c00;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+/* Results section */
+.results {
+    background-color: #2a2a2a; /* Slightly lighter background for contrast */
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    margin-bottom: 50px;
+}
+
+.results h2 {
+    color: #ff8c00;
+    margin-bottom: 20px;
+    font-size: 1.8em;
+    text-transform: uppercase;
+}
+
+.results p {
+    font-size: 1.3em;
+    margin: 15px 0;
+}
+
+.results strong {
+    color: #fff;
+}
+
+/* Add smooth transition to hoverable elements */
+button, a {
+    transition: all 0.3s ease;
+}
+
+/* Enhance readability */
+p, h2 {
+    color: #ddd;
+}
+
+/* Extra Styling for Buttons (if needed in templates) */
+button {
+    background-color: #ff8c00;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1.2em;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #e07b00;
+    transform: scale(1.05);
+}
